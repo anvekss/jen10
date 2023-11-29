@@ -1,2 +1,2 @@
 print("this is from github")
-exit(1)
+exit(0)
