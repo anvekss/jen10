@@ -5,7 +5,7 @@ pipeline {
         stage('Hello') {
             steps {
                 echo 'Hello World'
-                echo "python3 %WORKSPACE%\\testpysa.py"
+                python testpysa.py
             }
         }
     }
